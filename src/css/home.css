@@ -1,0 +1,10 @@
+.carousel-div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.carousel-box {
+  width: 500px;
+  height: 500px;
+  border: 2px solid black;
+}

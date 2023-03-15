@@ -1,0 +1,9 @@
+.carousel {
+  height: 100%;
+  width: 100%;
+  background-color: yellow;
+}
+.swiperSlide-img {
+  width: 500px;
+  height: 500px;
+}
