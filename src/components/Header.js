@@ -20,7 +20,9 @@ const Header = ({ onOff, setOnOff }) => {
           setOnOff((onOff = 1));
         }}
       >
-        <div className={onOff === 1 ? "headerBorder1" : "headerBorder"}>2D</div>
+        <div className={onOff === 1 ? "headerBorder1" : "headerBorder"}>
+          DESSINS 2D
+        </div>
       </Link>
       <Link
         to="/3d"
@@ -28,7 +30,9 @@ const Header = ({ onOff, setOnOff }) => {
           setOnOff((onOff = 2));
         }}
       >
-        <div className={onOff === 2 ? "headerBorder2" : "headerBorder"}>3D</div>
+        <div className={onOff === 2 ? "headerBorder2" : "headerBorder"}>
+          DESSINS 3D
+        </div>
       </Link>
       <Link
         to="/animations"
@@ -47,7 +51,7 @@ const Header = ({ onOff, setOnOff }) => {
         }}
       >
         <div className={onOff === 4 ? "headerBorder4" : "headerBorder"}>
-          ARTS
+          CREATIONS
         </div>
       </Link>
       <Link

@@ -1,13 +1,17 @@
 .header {
   display: flex;
   justify-content: space-around;
-  background-color: yellow;
+  background-color: magenta;
   padding: 30px 0 30px 0;
 }
 .headerBorder {
   border: 1px solid white;
   padding: 10px;
   color: black;
+  border-radius: 5px;
+}
+.headerBorder:hover {
+  background-color: greenyellow;
 }
 .headerBorder0,
 .headerBorder1,
@@ -16,6 +20,8 @@
 .headerBorder4,
 .headerBorder5 {
   border: 1px solid black;
+  border-radius: 5px;
   padding: 10px;
   color: black;
+  background-color: yellow;
 }
