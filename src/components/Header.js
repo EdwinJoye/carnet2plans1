@@ -57,6 +57,16 @@ const Header = ({ onOff, setOnOff }) => {
           </div>
         </Link>
         <Link
+          to="/realisations"
+          onClick={() => {
+            setOnOff((onOff = 6));
+          }}
+        >
+          <div className={onOff === 6 ? "header__border6" : "header__border"}>
+            REALISATIONS
+          </div>
+        </Link>
+        <Link
           to="/about"
           onClick={() => {
             setOnOff((onOff = 5));
