@@ -11,23 +11,43 @@ const Home = ({ onOff, setOnOff }) => {
       <div className="container fadeIn">
         <div>
           {categories.map((data, key) => {
-            return (
-              <div key={key} className="home__carousel-div">
-                <div className="home__carousel-box">
-                  <Link to={data.link}>
-                    <Carousel
-                      mainUrl={data.mainUrl}
-                      title={data.title}
-                      description={data.description}
-                    ></Carousel>
-                  </Link>
+            if (data.categorie === "1") {
+              return (
+                <div key={key} className="home__carousel-div">
+                  <div className="home__carousel-box">
+                    <Link to={data.link}>
+                      <Carousel
+                        mainUrl={data.mainUrl}
+                        title={data.title}
+                        description={data.description}
+                      ></Carousel>
+                    </Link>
+                  </div>
+                  <div className="home__title-texte">
+                    <h1>{data.title}</h1>
+                    <p>{data.texte}</p>
+                  </div>
                 </div>
-                <div className="home__title-texte">
-                  <h1>{data.title}</h1>
-                  <p>{data.texte}</p>
+              );
+            } else {
+              return (
+                <div key={key} className="home__carousel-div">
+                  <div className="home__title-texte">
+                    <h1>{data.title}</h1>
+                    <p>{data.texte}</p>
+                  </div>
+                  <div className="home__carousel-box">
+                    <Link to={data.link}>
+                      <Carousel
+                        mainUrl={data.mainUrl}
+                        title={data.title}
+                        description={data.description}
+                      ></Carousel>
+                    </Link>
+                  </div>
                 </div>
-              </div>
-            );
+              );
+            }
           })}
         </div>
       </div>

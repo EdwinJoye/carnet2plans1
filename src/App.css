@@ -37,7 +37,7 @@ img {
 .overlay:hover {
   opacity: 1;
 }
-.image-title {
+.overlay__title {
   margin-bottom: 10px;
 }
 @keyframes fadeIn {

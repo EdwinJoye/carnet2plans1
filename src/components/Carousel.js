@@ -32,8 +32,8 @@ const Carousel = ({ mainUrl, title, description }) => {
         })}
       </Swiper>
       <div className="overlay">
-        <div className="image-title">{title}</div>
-        <div className="descriptionImage">{description}</div>
+        <div className="overlay__title">{title}</div>
+        <div>{description}</div>
       </div>
     </div>
   );

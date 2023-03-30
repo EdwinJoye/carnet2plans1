@@ -6,8 +6,10 @@
 .home__carousel-box {
   width: 500px;
   height: 500px;
+  flex: 1;
 }
 .home__title-texte {
   padding: 20px;
   background-color: blanchedalmond;
+  flex: 2;
 }
