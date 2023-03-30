@@ -7,6 +7,7 @@ import TroisD from "./pages/TroisD";
 import Animations from "./pages/Animations";
 import Artworks from "./pages/Artworks";
 import About from "./pages/About";
+import Realisation from "./pages/Realisations";
 
 function App() {
   const [onOff, setOnOff] = useState(0);
@@ -45,6 +46,12 @@ function App() {
         <Route
           path="/about"
           element={<About onOff={onOff} setOnOff={setOnOff}></About>}
+        ></Route>
+        <Route
+          path="/realisations"
+          element={
+            <Realisation onOff={onOff} setOnOff={setOnOff}></Realisation>
+          }
         ></Route>
       </Routes>
     </Router>

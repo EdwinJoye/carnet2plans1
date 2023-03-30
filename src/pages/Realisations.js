@@ -1,12 +1,12 @@
 import Header from "../components/Header";
-import { artworks } from "../data/artworks";
+import { realisations } from "../data/realisations";
 
-const Artworks = ({ onOff, setOnOff }) => {
+const Realisation = ({ onOff, setOnOff }) => {
   return (
     <div>
       <Header onOff={onOff} setOnOff={setOnOff}></Header>
       <div className="container fadeIn">
-        {artworks.map((data, key) => {
+        {realisations.map((data, key) => {
           return (
             <div>
               <div>{data.title}</div>
@@ -20,4 +20,4 @@ const Artworks = ({ onOff, setOnOff }) => {
   );
 };
 
-export default Artworks;
+export default Realisation;
