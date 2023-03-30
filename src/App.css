@@ -8,10 +8,46 @@ body {
   text-decoration: none;
   letter-spacing: 0.05em;
 }
+img {
+  max-width: 500px;
+}
 .container {
   margin-left: 7%;
   margin-right: 7%;
 }
-img {
-  max-width: 500px;
+.fadeIn {
+  animation: 1.5s ease fadeIn;
+}
+.overlay {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  opacity: 0;
+  z-index: 1;
+  transition: opacity 0.45s ease-in-out;
+}
+.overlay:hover {
+  opacity: 1;
+}
+.image-title {
+  margin-bottom: 10px;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 1;
+  }
 }

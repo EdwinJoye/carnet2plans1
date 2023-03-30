@@ -12,59 +12,61 @@ const Header = ({ onOff, setOnOff }) => {
         }}
       >
         <div>
-          <img className="header-logo" src={logos[1].mainUrl} alt="" />
+          <img className="header__logo" src={logos[1].mainUrl} alt="" />
         </div>
       </Link>
-      <Link
-        to="/2d"
-        onClick={() => {
-          setOnOff((onOff = 1));
-        }}
-      >
-        <div className={onOff === 1 ? "header-border1" : "header-border"}>
-          DESSINS 2D
-        </div>
-      </Link>
-      <Link
-        to="/3d"
-        onClick={() => {
-          setOnOff((onOff = 2));
-        }}
-      >
-        <div className={onOff === 2 ? "header-border2" : "header-border"}>
-          DESSINS 3D
-        </div>
-      </Link>
-      <Link
-        to="/animations"
-        onClick={() => {
-          setOnOff((onOff = 3));
-        }}
-      >
-        <div className={onOff === 3 ? "header-border3" : "header-border"}>
-          ANIMATIONS
-        </div>
-      </Link>
-      <Link
-        to="/arts"
-        onClick={() => {
-          setOnOff((onOff = 4));
-        }}
-      >
-        <div className={onOff === 4 ? "header-border4" : "header-border"}>
-          CREATIONS
-        </div>
-      </Link>
-      <Link
-        to="/about"
-        onClick={() => {
-          setOnOff((onOff = 5));
-        }}
-      >
-        <div className={onOff === 5 ? "header-border5" : "header-border"}>
-          ABOUT
-        </div>
-      </Link>
+      <div className="header__buttons">
+        <Link
+          to="/2d"
+          onClick={() => {
+            setOnOff((onOff = 1));
+          }}
+        >
+          <div className={onOff === 1 ? "header__border1" : "header__border"}>
+            DESSINS 2D
+          </div>
+        </Link>
+        <Link
+          to="/3d"
+          onClick={() => {
+            setOnOff((onOff = 2));
+          }}
+        >
+          <div className={onOff === 2 ? "header__border2" : "header__border"}>
+            DESSINS 3D
+          </div>
+        </Link>
+        <Link
+          to="/animations"
+          onClick={() => {
+            setOnOff((onOff = 3));
+          }}
+        >
+          <div className={onOff === 3 ? "header__border3" : "header__border"}>
+            ANIMATIONS
+          </div>
+        </Link>
+        <Link
+          to="/artworks"
+          onClick={() => {
+            setOnOff((onOff = 4));
+          }}
+        >
+          <div className={onOff === 4 ? "header__border4" : "header__border"}>
+            ARTWORK
+          </div>
+        </Link>
+        <Link
+          to="/about"
+          onClick={() => {
+            setOnOff((onOff = 5));
+          }}
+        >
+          <div className={onOff === 5 ? "header__border5" : "header__border"}>
+            ABOUT
+          </div>
+        </Link>
+      </div>
     </div>
   );
 };

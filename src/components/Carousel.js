@@ -3,10 +3,11 @@ import { Autoplay } from "swiper";
 import "../css/carousel.css";
 import "swiper/css";
 
-const Carousel = ({ mainUrl }) => {
+const Carousel = ({ mainUrl, title, description }) => {
   return (
-    <div className="carousel">
+    <div className="carousel carousel__slide">
       <Swiper
+        className="carousel__slide"
         autoplay={{
           delay: 4000,
         }}
@@ -20,12 +21,20 @@ const Carousel = ({ mainUrl }) => {
           return (
             <div key={key}>
               <SwiperSlide>
-                <img className="swiperSlide-img" src={data} alt="" />
+                <img
+                  className="carousel__swiperSlide-img"
+                  src={data}
+                  alt="swiper-img"
+                />
               </SwiperSlide>
             </div>
           );
         })}
       </Swiper>
+      <div className="overlay">
+        <div className="image-title">{title}</div>
+        <div className="descriptionImage">{description}</div>
+      </div>
     </div>
   );
 };

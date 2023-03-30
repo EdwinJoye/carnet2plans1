@@ -5,7 +5,7 @@ import Home from "./pages/Home";
 import DeuxD from "./pages/DeuxD";
 import TroisD from "./pages/TroisD";
 import Animations from "./pages/Animations";
-import Arts from "./pages/Arts";
+import Artworks from "./pages/Artworks";
 import About from "./pages/About";
 
 function App() {
@@ -39,8 +39,8 @@ function App() {
           element={<Animations onOff={onOff} setOnOff={setOnOff}></Animations>}
         ></Route>
         <Route
-          path="/arts"
-          element={<Arts onOff={onOff} setOnOff={setOnOff}></Arts>}
+          path="/artworks"
+          element={<Artworks onOff={onOff} setOnOff={setOnOff}></Artworks>}
         ></Route>
         <Route
           path="/about"

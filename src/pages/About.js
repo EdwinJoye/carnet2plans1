@@ -3,17 +3,19 @@ import { about } from "../data/about";
 
 const About = ({ onOff, setOnOff }) => {
   return (
-    <div className="container">
+    <div>
       <Header onOff={onOff} setOnOff={setOnOff}></Header>
-      <div>
-        {about.map((data, key) => {
-          return (
-            <div className="" key={key}>
-              <div>{data.title}</div>
-              <img src={data.mainUrl} alt="" />
-            </div>
-          );
-        })}
+      <div className="container fadeIn">
+        <div>
+          {about.map((data, key) => {
+            return (
+              <div className="" key={key}>
+                <div>{data.title}</div>
+                <img src={data.mainUrl} alt="" />
+              </div>
+            );
+          })}
+        </div>
       </div>
     </div>
   );

@@ -1,12 +1,12 @@
 import Header from "../components/Header";
-import { animations } from "../data/animations";
+import { arts } from "../data/arts";
 
-const Animations = ({ onOff, setOnOff }) => {
+const Artworks = ({ onOff, setOnOff }) => {
   return (
     <div>
       <Header onOff={onOff} setOnOff={setOnOff}></Header>
       <div className="container fadeIn">
-        {animations.map((data, key) => {
+        {arts.map((data, key) => {
           return (
             <div>
               <div>{data.title}</div>
@@ -20,4 +20,4 @@ const Animations = ({ onOff, setOnOff }) => {
   );
 };
 
-export default Animations;
+export default Artworks;

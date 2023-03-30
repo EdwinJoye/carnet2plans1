@@ -2,6 +2,7 @@ export const categories = [
   {
     title: "2D",
     link: "/2d",
+    description: "dessin test",
     mainUrl: [
       "https://res.cloudinary.com/djfi7lj5z/image/upload/v1678896722/carnet2plans/2D/tech-esthetique_udyx9s.jpg",
       "https://res.cloudinary.com/djfi7lj5z/image/upload/v1678896719/carnet2plans/2D/bd763dbdacedf21bf00215c3afa46dc7_h6fvac.jpg",
@@ -15,6 +16,7 @@ export const categories = [
   {
     title: "3D",
     link: "/3d",
+    description: "dessin test",
     mainUrl: [
       "https://res.cloudinary.com/djfi7lj5z/image/upload/v1678896714/carnet2plans/3D/6dbdf7c993d0afb3e298a856b18cb6d3_ugsgsh.jpg",
       "https://res.cloudinary.com/djfi7lj5z/image/upload/v1678896714/carnet2plans/3D/Image-3D-paysagiste_qkiitj.jpg",
@@ -28,6 +30,7 @@ export const categories = [
   {
     title: "Animations",
     link: "/animations",
+    description: "dessin test",
     mainUrl: [
       "https://res.cloudinary.com/djfi7lj5z/image/upload/v1678896718/carnet2plans/VIDEOS/ipados13-ipad-pro-photos-video-edit-slow-motion_dtwffv.jpg",
       "https://res.cloudinary.com/djfi7lj5z/image/upload/v1678896718/carnet2plans/VIDEOS/Hero__4__zean2g.png",
@@ -41,6 +44,7 @@ export const categories = [
   {
     title: "Arts",
     link: "/arts",
+    description: "dessin test",
     mainUrl: [
       "https://res.cloudinary.com/djfi7lj5z/image/upload/v1678896715/carnet2plans/ARTS/8571884205_fa5cd52bf4_b_wdhyjc.jpg",
       "https://res.cloudinary.com/djfi7lj5z/image/upload/v1678896715/carnet2plans/ARTS/art-auction_we1vms.jpg",
