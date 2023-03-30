@@ -1,6 +1,7 @@
 import Header from "../components/Header";
 import { deuxD } from "../data/deuxD";
-
+import Categorie1 from "../components/Categorie1";
+import Categorie2 from "../components/Categorie2";
 import "../css/deuxD.css";
 
 const DeuxD = ({ onOff, setOnOff }) => {
@@ -9,13 +10,11 @@ const DeuxD = ({ onOff, setOnOff }) => {
       <Header onOff={onOff} setOnOff={setOnOff}></Header>
       <div className="container fadeIn">
         {deuxD.map((data, key) => {
-          return (
-            <div key={key}>
-              <div>{data.title}</div>
-              <img src={data.mainUrl} alt="" />
-              <div>{data.texte}</div>
-            </div>
-          );
+          if (data.categorie === "1") {
+            return <Categorie1 data={data} key={key}></Categorie1>;
+          } else {
+            return <Categorie2 data={data} key={key}></Categorie2>;
+          }
         })}
       </div>
     </div>

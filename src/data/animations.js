@@ -2,6 +2,7 @@ export const animations = [
   {
     id: "animation1",
     title: "Vidéo de squate 1",
+    categorie: "1",
     mainUrl:
       "https://res.cloudinary.com/djfi7lj5z/image/upload/v1678896718/carnet2plans/VIDEOS/ipados13-ipad-pro-photos-video-edit-slow-motion_dtwffv.jpg",
     texte:
@@ -10,6 +11,7 @@ export const animations = [
   {
     id: "animation2",
     title: "Montage vidéo 1",
+    categorie: "2",
     mainUrl:
       "https://res.cloudinary.com/djfi7lj5z/image/upload/v1678896718/carnet2plans/VIDEOS/Hero__4__zean2g.png",
     texte:
@@ -18,6 +20,7 @@ export const animations = [
   {
     id: "animation3",
     title: "Vidéo de BMX",
+    categorie: "1",
     mainUrl:
       "https://res.cloudinary.com/djfi7lj5z/image/upload/v1678896717/carnet2plans/VIDEOS/ipados13-ipad-pro-photos-video-edit-trim_zjruo6.jpg",
     texte:
@@ -26,6 +29,7 @@ export const animations = [
   {
     id: "animation4",
     title: "Vidéo de squate 2",
+    categorie: "2",
     mainUrl:
       "https://res.cloudinary.com/djfi7lj5z/image/upload/v1678896716/carnet2plans/VIDEOS/ipados13-ipad-pro-photos-video-edit-filters_v8aprt.jpg",
     texte:
@@ -34,6 +38,7 @@ export const animations = [
   {
     id: "animation5",
     title: "Montage vidéo 2",
+    categorie: "1",
     mainUrl:
       "https://res.cloudinary.com/djfi7lj5z/image/upload/v1678896715/carnet2plans/VIDEOS/imovie-app_yyzx0i.jpg",
     texte:

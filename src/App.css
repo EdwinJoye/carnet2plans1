@@ -40,6 +40,14 @@ img {
 .overlay__title {
   margin-bottom: 10px;
 }
+.flex {
+  display: flex;
+  margin-bottom: 20px;
+}
+.box__title-texte {
+  padding: 30px;
+  background-color: blanchedalmond;
+}
 @keyframes fadeIn {
   0% {
     opacity: 0;

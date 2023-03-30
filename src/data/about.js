@@ -2,6 +2,7 @@ export const about = [
   {
     id: "about1",
     title: "Paysagiste 1",
+    categorie: "1",
     mainUrl:
       "https://res.cloudinary.com/djfi7lj5z/image/upload/v1680171635/carnet2plans/About/summer-3623282_1280-1024x682_h0dczn.jpg",
     texte:
@@ -10,6 +11,7 @@ export const about = [
   {
     id: "about2",
     title: "Paysagiste 2",
+    categorie: "2",
     mainUrl:
       "https://res.cloudinary.com/djfi7lj5z/image/upload/v1680171635/carnet2plans/About/jardinier-paysagiste_uojgpb.jpg",
     texte:
@@ -18,6 +20,7 @@ export const about = [
   {
     id: "about3",
     title: "Paysagiste 3",
+    categorie: "1",
     mainUrl:
       "https://res.cloudinary.com/djfi7lj5z/image/upload/v1680171635/carnet2plans/About/constructions-paysagere_119084187_fzc48l.jpg",
     texte:
@@ -26,6 +29,7 @@ export const about = [
   {
     id: "about4",
     title: "Paysagiste 4",
+    categorie: "2",
     mainUrl:
       "https://res.cloudinary.com/djfi7lj5z/image/upload/v1680171634/carnet2plans/About/265.Comment-choisir-un-paysagiste-380139730-1080x721_ar4fy8.jpg",
     texte:

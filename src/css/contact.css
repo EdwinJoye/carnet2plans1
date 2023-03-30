@@ -1,0 +1,39 @@
+.contact {
+  display: flex;
+  justify-content: center;
+}
+.contact__img-inputs {
+  display: flex;
+}
+.contact__img {
+  height: 500px;
+  width: 300px;
+}
+.contact__img img {
+  height: 100%;
+  width: 100%;
+}
+.contact__texte-inputs {
+  padding-left: 30px;
+}
+.contact__texte {
+  padding-left: 90px;
+}
+.contact__input {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.contact__input p {
+  width: 70px;
+  text-align: end;
+  margin-right: 20px;
+}
+.contact__input input {
+  border-radius: 5px;
+  appearance: none;
+  background-color: #e6e6e6;
+  width: 300px;
+  height: 30px;
+  border: none;
+}

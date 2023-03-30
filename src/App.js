@@ -8,6 +8,7 @@ import Animations from "./pages/Animations";
 import Artworks from "./pages/Artworks";
 import About from "./pages/About";
 import Realisation from "./pages/Realisations";
+import Contact from "./pages/Contact";
 
 function App() {
   const [onOff, setOnOff] = useState(0);
@@ -52,6 +53,10 @@ function App() {
           element={
             <Realisation onOff={onOff} setOnOff={setOnOff}></Realisation>
           }
+        ></Route>
+        <Route
+          path="/contact"
+          element={<Contact onOff={onOff} setOnOff={setOnOff}></Contact>}
         ></Route>
       </Routes>
     </Router>

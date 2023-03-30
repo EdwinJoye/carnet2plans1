@@ -2,6 +2,7 @@ export const realisations = [
   {
     id: "realisation1",
     title: "Paris",
+    categorie: "1",
     mainUrl:
       "https://res.cloudinary.com/djfi7lj5z/image/upload/v1680187350/carnet2plans/Work/Real/71695084_1372003632956611_9079706278451740672_o_sljbyf.jpg",
     texte:
@@ -10,6 +11,7 @@ export const realisations = [
   {
     id: "realisation2",
     title: "Saint-Germain",
+    categorie: "2",
     mainUrl:
       "https://res.cloudinary.com/djfi7lj5z/image/upload/v1680187350/carnet2plans/Work/Real/71695084_1372003632956611_9079706278451740672_o_sljbyf.jpg",
     texte:
@@ -18,6 +20,7 @@ export const realisations = [
   {
     id: "realisation3",
     title: "Orléans",
+    categorie: "1",
     mainUrl:
       "https://res.cloudinary.com/djfi7lj5z/image/upload/v1680187350/carnet2plans/Work/Real/71695084_1372003632956611_9079706278451740672_o_sljbyf.jpg",
     texte:
@@ -26,6 +29,7 @@ export const realisations = [
   {
     id: "realisation4",
     title: "Rouen",
+    categorie: "2",
     mainUrl:
       "https://res.cloudinary.com/djfi7lj5z/image/upload/v1680187350/carnet2plans/Work/Real/71695084_1372003632956611_9079706278451740672_o_sljbyf.jpg",
     texte:
@@ -34,6 +38,7 @@ export const realisations = [
   {
     id: "realisation5",
     title: "Toulouse",
+    categorie: "1",
     mainUrl:
       "https://res.cloudinary.com/djfi7lj5z/image/upload/v1680187350/carnet2plans/Work/Real/71695084_1372003632956611_9079706278451740672_o_sljbyf.jpg",
     texte:

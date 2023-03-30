@@ -47,33 +47,43 @@ const Header = ({ onOff, setOnOff }) => {
           </div>
         </Link>
         <Link
-          to="/artworks"
+          to="/realisations"
           onClick={() => {
             setOnOff((onOff = 4));
           }}
         >
           <div className={onOff === 4 ? "header__border4" : "header__border"}>
-            ARTWORK
-          </div>
-        </Link>
-        <Link
-          to="/realisations"
-          onClick={() => {
-            setOnOff((onOff = 6));
-          }}
-        >
-          <div className={onOff === 6 ? "header__border6" : "header__border"}>
             REALISATIONS
           </div>
         </Link>
         <Link
-          to="/about"
+          to="/artworks"
           onClick={() => {
             setOnOff((onOff = 5));
           }}
         >
           <div className={onOff === 5 ? "header__border5" : "header__border"}>
+            ARTWORK
+          </div>
+        </Link>
+        <Link
+          to="/about"
+          onClick={() => {
+            setOnOff((onOff = 6));
+          }}
+        >
+          <div className={onOff === 6 ? "header__border6" : "header__border"}>
             ABOUT
+          </div>
+        </Link>
+        <Link
+          to="/contact"
+          onClick={() => {
+            setOnOff((onOff = 7));
+          }}
+        >
+          <div className={onOff === 7 ? "header__border7" : "header__border"}>
+            CONTACT
           </div>
         </Link>
       </div>
