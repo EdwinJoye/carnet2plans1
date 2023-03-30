@@ -8,7 +8,7 @@ const About = ({ onOff, setOnOff }) => {
       <div>
         {about.map((data, key) => {
           return (
-            <div key={key}>
+            <div className="" key={key}>
               <div>{data.title}</div>
               <img src={data.mainUrl} alt="" />
             </div>

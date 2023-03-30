@@ -18,7 +18,7 @@ const Carousel = ({ mainUrl }) => {
       >
         {mainUrl.map((data, key) => {
           return (
-            <div>
+            <div key={key}>
               <SwiperSlide>
                 <img className="swiperSlide-img" src={data} alt="" />
               </SwiperSlide>

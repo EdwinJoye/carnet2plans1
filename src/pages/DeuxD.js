@@ -7,7 +7,7 @@ const DeuxD = ({ onOff, setOnOff }) => {
       <Header onOff={onOff} setOnOff={setOnOff}></Header>
       {deuxD.map((data, key) => {
         return (
-          <div>
+          <div key={key}>
             <div>{data.title}</div>
             <img src={data.mainUrl} alt="" />
             <div>{data.texte}</div>

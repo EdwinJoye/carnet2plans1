@@ -5,23 +5,24 @@ import { Link } from "react-router-dom";
 import "../css/home.css";
 const Home = ({ onOff, setOnOff, selectedId, setSelectedId }) => {
   return (
-    <div className="container">
+    <div>
       <Header onOff={onOff} setOnOff={setOnOff}></Header>
-      <div className="carousel-div">
-        {categories.map((data, key) => {
-          return (
-            <div key={key}>
-              <div>{data.title}</div>
-              <div className="carousel-box">
-                <Link to={data.link}>
-                  <Carousel mainUrl={data.mainUrl}></Carousel>
-                </Link>
+      <div className="container">
+        <div className="carousel-div">
+          {categories.map((data, key) => {
+            return (
+              <div key={key}>
+                <div>{data.title}</div>
+                <div className="carousel-box">
+                  <Link to={data.link}>
+                    <Carousel mainUrl={data.mainUrl}></Carousel>
+                  </Link>
+                </div>
               </div>
-            </div>
-          );
-        })}
+            );
+          })}
+        </div>
       </div>
-
       <div>HOME</div>
     </div>
   );
