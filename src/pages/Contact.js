@@ -2,11 +2,11 @@ import Header from "../components/Header";
 import { contact } from "../data/contact";
 import "../css/contact.css";
 
-const Contact = () => {
+const Contact = ({ onOff, setOnOff }) => {
   return (
     <div>
-      <Header></Header>
-      <div className="container contact">
+      <Header onOff={onOff} setOnOff={setOnOff}></Header>
+      <div className="container contact fadeIn">
         <div className="contact__img-inputs">
           <div className="contact__img">
             <img src={contact[0].mainUrl} alt="" />
@@ -29,7 +29,10 @@ const Contact = () => {
                 <p>Email*</p> <input type="text" />
               </div>
               <div className="contact__input">
-                <p>Message</p> <input type="text" />
+                <div>
+                  <p>Message</p>
+                </div>
+                <input type="text" />
               </div>
             </div>
           </div>

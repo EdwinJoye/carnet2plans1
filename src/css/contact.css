@@ -27,6 +27,7 @@
 .contact__input p {
   width: 70px;
   text-align: end;
+  margin: 0;
   margin-right: 20px;
 }
 .contact__input input {
@@ -36,4 +37,10 @@
   width: 300px;
   height: 30px;
   border: none;
+}
+.contact__input:nth-child(3) div {
+  height: 100px;
+}
+.contact__input:nth-child(3) input {
+  height: 100px;
 }

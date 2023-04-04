@@ -12,7 +12,7 @@ const Header = ({ onOff, setOnOff }) => {
         }}
       >
         <div>
-          <img className="header__logo" src={logos[1].mainUrl} alt="" />
+          <img className="header__logo" src={logos[1].mainUrl} alt="logo" />
         </div>
       </Link>
       <div className="header__buttons">

@@ -3,11 +3,13 @@ import Carousel from "../components/Carousel";
 import { categories } from "../data/categories";
 import { Link } from "react-router-dom";
 import "../css/home.css";
+import Swipper from "../components/Swipper";
 
 const Home = ({ onOff, setOnOff }) => {
   return (
     <div className="home">
       <Header onOff={onOff} setOnOff={setOnOff}></Header>
+      <Swipper></Swipper>
       <div className="container fadeIn">
         <div>
           {categories.map((data, key) => {

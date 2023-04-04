@@ -8,7 +8,7 @@ body {
   text-decoration: none;
   letter-spacing: 0.05em;
 }
-img {
+.img {
   max-width: 500px;
 }
 .container {

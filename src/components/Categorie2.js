@@ -6,7 +6,7 @@ const Categorie2 = ({ data, key }) => {
         <div>{data.texte}</div>
       </div>
       <div>
-        <img src={data.mainUrl} alt="deuxD-img" />
+        <img className="img" src={data.mainUrl} alt="deuxD-img" />
       </div>
     </div>
   );
