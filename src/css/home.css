@@ -1,15 +1,5 @@
-.home__carousel-div {
-  display: flex;
-  justify-content: space-around;
-  margin-bottom: 20px;
-}
-.home__carousel-box {
-  width: 500px;
-  height: 500px;
-  flex: 1;
-}
-.home__title-texte {
-  padding: 30px;
-  background-color: blanchedalmond;
-  flex: 2;
+.home {
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
 }
